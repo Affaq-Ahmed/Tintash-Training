@@ -49,7 +49,7 @@ const serialPromises = (urls) => {
 		}
 	});
 
-  return Promise.allSettled(promises).then(() => {
+	return Promise.allSettled(promises).then(() => {
 		return results;
 	});
 };
